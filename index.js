@@ -5,3 +5,19 @@ function showNumber(number) {
 function showTwoNumbers(number1, number2) {
   console.log(number1 + number2);
 }
+
+function suma(number1, number2) {
+  console.log(number1 + number2);
+}
+
+function resta(number1, number2) {
+  console.log(number1 - number2);
+}
+
+function multiplicar(number1, number2) {
+  console.log(number1 * number2);
+}
+
+function dividir(number1, number2) {
+  console.log(number1 / number2);
+}
