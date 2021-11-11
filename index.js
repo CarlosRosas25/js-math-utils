@@ -29,3 +29,9 @@ function calcularPromedio(number1, number2) {
 
   console.log(total / 2);
 }
+
+export const getLowerNumberFromArray = (arrayNumbers) => {
+  return arrayNumbers.reduce((acc, valorActual) => {
+    return acc < valorActual ? acc : valorActual;
+  }, null);
+};
