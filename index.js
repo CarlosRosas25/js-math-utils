@@ -35,3 +35,5 @@ export const getLowerNumberFromArray = (arrayNumbers) => {
     return acc < valorActual ? acc : valorActual;
   }, null);
 };
+
+export const getPotencia = (num, potencia) => Math.pow(num, potencia);
